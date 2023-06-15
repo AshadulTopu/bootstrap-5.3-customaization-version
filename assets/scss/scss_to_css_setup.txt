@@ -1,0 +1,11 @@
+    
+    use this code into setting.js for setup compile scss to css in right directory 
+    
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/css",
+            "savePathReplacementPairs": null
+        }
+    ],
