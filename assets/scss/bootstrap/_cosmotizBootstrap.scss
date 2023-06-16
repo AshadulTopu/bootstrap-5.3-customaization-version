@@ -23,7 +23,7 @@
   }
 }
 
-// Generating All shade of indigos
+// Generating All shade of indigo
 @each $color, $value in $indigos{
   .bg-#{$color}{
     background-color: $value !important;
@@ -43,7 +43,7 @@
   }
 }
 
-// Generating All shade of pinks
+// Generating All shade of pink
 @each $color, $value in $pinks{
   .bg-#{$color}{
     background-color: $value !important;
@@ -53,7 +53,7 @@
   }
 }
 
-// Generating All shade of reds
+// Generating All shade of red
 @each $color, $value in $reds{
   .bg-#{$color}{
     background-color: $value !important;
@@ -63,7 +63,7 @@
   }
 }
 
-// Generating All shade of oranges
+// Generating All shade of orange
 @each $color, $value in $oranges{
   .bg-#{$color}{
     background-color: $value !important;
@@ -73,7 +73,7 @@
   }
 }
 
-// Generating All shade of yellows
+// Generating All shade of yellow
 @each $color, $value in $yellows{
   .bg-#{$color}{
     background-color: $value !important;
@@ -83,7 +83,7 @@
   }
 }
 
-// Generating All shade of $greens
+// Generating All shade of $green
 @each $color, $value in $greens{
   .bg-#{$color}{
     background-color: $value !important;
@@ -93,7 +93,7 @@
   }
 }
 
-// Generating All shade of $teals
+// Generating All shade of $teal
 @each $color, $value in $teals{
   .bg-#{$color}{
     background-color: $value !important;
@@ -103,7 +103,7 @@
   }
 }
 
-// Generating All shade of cyans
+// Generating All shade of cyan
 @each $color, $value in $cyans{
   .bg-#{$color}{
     background-color: $value !important;
@@ -126,20 +126,21 @@
 
 // another way
 $spacer: 1rem !default;
-$spacers: () !default;
 $spacers: map-merge(
   (
     0: 0,
     1: ($spacer * .25),    //4px
     2: ($spacer * .5),     //8px
     3: $spacer,            //16px
-    4: ($spacer * 1.5),    //24px
-    5: ($spacer * 3),      //48px
-    6: ($spacer * 4),      //64px
-    7: ($spacer * 5),      //80px
-    8: ($spacer * 6.25),   //100px
-    9: ($spacer * 7.5),    //120px
-    10: ($spacer * 9.375)  //150px
+    4: ($spacer * 1.25),   //20px
+    5: ($spacer * 2),      //32px
+    6: ($spacer * 2.5),    //40px
+    7: ($spacer * 3),      //48px
+    8: ($spacer * 3.75),   //60px
+    9: ($spacer * 5),      //80px
+    10: ($spacer * 6.25),  //100px
+    11: ($spacer * 7.5),   //120px
+    12: ($spacer * 9.375)  //150px
   ),
   $spacers
 );
