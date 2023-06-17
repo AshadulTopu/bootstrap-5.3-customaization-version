@@ -16,7 +16,7 @@
     ],
     "liveSassCompile.settings.generateMap": true,
     "liveServer.settings.port": 5503,
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.codeActionsOnSave": {
     
     
