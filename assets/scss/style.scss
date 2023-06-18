@@ -1,7 +1,7 @@
 // bootstrap 
-@forward 'bootstrap/cosmotizBootstrap';
+@import 'bootstrap/customizeBootstrap';
 // reset code
-@forward './reset';
+@import './reset';
 
 
 
