@@ -18129,4 +18129,48 @@ textarea.form-control-lg {
   list-style: none;
   text-decoration: none;
   outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--head-font);
+  line-height: 120%;
+  font-weight: 700;
+  margin: 0;
+}
+
+p, span, button, input, a, ul li, ol li {
+  font-family: var(--body-font);
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 400;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: var();
+  transition: 0.3s;
+}
+a:focus, a:hover {
+  text-decoration: none;
+  outline: none;
+  color: var();
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.text-primary-1 {
+  color: #ff0000;
 }/*# sourceMappingURL=style.css.map */

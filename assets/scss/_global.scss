@@ -1,35 +1,5 @@
-:root {
-  --body-font: "";
-  --head-font: "";
-
-    // primary color
-  --p50: ;
-  --p75: ;
-  --p100: ;
-  --p200: ;
-  --p300: ;
-  --p400: ;
-  --p500: ;
-
-  //secondary color
-  --s50: ;
-  --s75: ;
-  --s100: ;
-  --s200: ;
-  --s300: ;
-  --s400: ;
-  --s500: ;
-
-  --n100: ;
-  --n200: ;
-  --n300: ;
-  --n400: ;
-  --n500: ;
-  --n600: ;
-  --n700: ;
-  --n800: ;
-  --n900: ;
-}
+// variable
+@use './util/variable';
 
 html {
 	scroll-behavior: smooth;
@@ -43,26 +13,8 @@ body {
 	position: relative;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: var(--head-font);
-    line-height: 120%;
-    font-weight: 700;
-}
-p,span,button,input,a,ul li,ol li{
-    font-family: var(--body-font);
-	font-size: 18px;
-	line-height: 130%;
-	font-weight: 400;
-}
 
-a {
-	text-decoration: none;
-	outline: none;
-	color: var();
-	transition: 0.3s;
-	&:focus, &:hover {
-		text-decoration: none;
-		outline: none;
-		color: var();
-	}
+// primary color
+.text-primary-1{
+  color: variable.$p50;
 }

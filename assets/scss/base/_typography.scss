@@ -1,0 +1,25 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--head-font);
+    line-height: 120%;
+    font-weight: 700;
+    margin: 0;
+}
+p,span,button,input,a,ul li,ol li{
+    font-family: var(--body-font);
+	font-size: 18px;
+	line-height: 130%;
+	font-weight: 400;
+    margin: 0;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+	color: var();
+	transition: 0.3s;
+	&:focus, &:hover {
+		text-decoration: none;
+		outline: none;
+		color: var();
+	}
+}

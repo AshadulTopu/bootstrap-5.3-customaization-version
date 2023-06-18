@@ -1,25 +1,23 @@
 // bootstrap 
-@import 'bootstrap/customizeBootstrap';
+@forward 'bootstrap/customizeBootstrap';
 // reset code
-@import './reset';
+@forward './base/reset';
+// typography
+@forward './base/typography';
+//variable
+// @use './util/variable';
 
-
-
-
-
-
-
-
-
+// global
+@forward './global';
 
 
 
 
 // header-footer
-@import "./main/header-footer";
+@forward "./main/header-footer";
 // home
-@import "./main/home";
+@forward "./main/home";
 // pages
-@import "./pages/pages";
+@forward "./pages/pages";
 // form
-@import "./pages/form";
+@forward "./pages/form";
